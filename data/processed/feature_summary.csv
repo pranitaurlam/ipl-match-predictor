@@ -1,0 +1,17 @@
+feature,description,source
+team1_enc,Label-encoded team1 identity,team_encoder.joblib
+team2_enc,Label-encoded team2 identity,team_encoder.joblib
+venue_enc,Label-encoded venue,venue_encoder.joblib
+toss_winner_enc,Label-encoded toss winner,team_encoder.joblib
+toss_decision_enc,Label-encoded toss decision (bat/field),toss_decision_encoder.joblib
+team1_team_win_pct,Team1's all-time win % before this match,engineered
+team2_team_win_pct,Team2's all-time win % before this match,engineered
+team1_h2h_win_rate,Team1's win rate vs team2 in prior meetings,engineered
+team2_h2h_win_rate,Team2's win rate vs team1 in prior meetings,engineered
+team1_venue_win_pct,Team1's win % at this venue historically,engineered
+team2_venue_win_pct,Team2's win % at this venue historically,engineered
+team1_recent_form_5,Team1's win rate over its last 5 matches,engineered
+team2_recent_form_5,Team2's win rate over its last 5 matches,engineered
+avg_venue_score,"Average innings total runs at this venue (optional, needs deliveries.csv)",deliveries.csv
+season,IPL season year,raw
+team1_won,"Target: 1 if team1 won, else 0",derived from winner
