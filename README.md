@@ -34,7 +34,6 @@ path = kagglehub.dataset_download("vedantbhavsar43/ipl-2007-to-2026-complete-bal
 ```
 
 Then copy `ipl_matches.csv` → `data/raw/matches.csv` and `ipl_ball_by_ball.csv` → `data/raw/deliveries.csv`.
-
 ## Week 1 Progress
 
 - [x] Day 1: Project setup & dataset loading
