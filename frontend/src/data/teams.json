@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Mumbai Indians",
+    "code": "MI",
+    "colorDark": "#3987e5",
+    "colorLight": "#2a78d6",
+    "matches": 285
+  },
+  {
+    "name": "Sunrisers Hyderabad",
+    "code": "SRH",
+    "colorDark": "#d95926",
+    "colorLight": "#eb6834",
+    "matches": 280
+  },
+  {
+    "name": "Royal Challengers Bengaluru",
+    "code": "RCB",
+    "colorDark": "#199e70",
+    "colorLight": "#1baf7a",
+    "matches": 279
+  },
+  {
+    "name": "Delhi Capitals",
+    "code": "DC",
+    "colorDark": "#c98500",
+    "colorLight": "#eda100",
+    "matches": 276
+  },
+  {
+    "name": "Punjab Kings",
+    "code": "PBKS",
+    "colorDark": "#d55181",
+    "colorLight": "#e87ba4",
+    "matches": 272
+  },
+  {
+    "name": "Kolkata Knight Riders",
+    "code": "KKR",
+    "colorDark": "#008300",
+    "colorLight": "#008300",
+    "matches": 272
+  },
+  {
+    "name": "Chennai Super Kings",
+    "code": "CSK",
+    "colorDark": "#9085e9",
+    "colorLight": "#4a3aa7",
+    "matches": 260
+  },
+  {
+    "name": "Rajasthan Royals",
+    "code": "RR",
+    "colorDark": "#e66767",
+    "colorLight": "#e34948",
+    "matches": 245
+  },
+  {
+    "name": "Gujarat Titans",
+    "code": "GT",
+    "colorDark": "#0e8fa8",
+    "colorLight": "#0089a3",
+    "matches": 69
+  },
+  {
+    "name": "Lucknow Super Giants",
+    "code": "LSG",
+    "colorDark": "#6f8f10",
+    "colorLight": "#5c7a0d",
+    "matches": 66
+  },
+  {
+    "name": "Pune Warriors India",
+    "code": "PWI",
+    "colorDark": "#c026d3",
+    "colorLight": "#8e1f9e",
+    "matches": 46
+  },
+  {
+    "name": "Rising Pune Supergiants",
+    "code": "RPS",
+    "colorDark": "#a8530d",
+    "colorLight": "#9c3d0a",
+    "matches": 30
+  },
+  {
+    "name": "Gujarat Lions",
+    "code": "GL",
+    "colorDark": "#4a5fd6",
+    "colorLight": "#4550c9",
+    "matches": 30
+  },
+  {
+    "name": "Kochi Tuskers Kerala",
+    "code": "KTK",
+    "colorDark": "#c2185b",
+    "colorLight": "#a01450",
+    "matches": 14
+  }
+]

@@ -1,0 +1,1203 @@
+{
+  "allTime": [
+    {
+      "name": "V Kohli",
+      "runs": 9050
+    },
+    {
+      "name": "RG Sharma",
+      "runs": 7185
+    },
+    {
+      "name": "S Dhawan",
+      "runs": 6769
+    },
+    {
+      "name": "DA Warner",
+      "runs": 6567
+    },
+    {
+      "name": "KL Rahul",
+      "runs": 5668
+    },
+    {
+      "name": "SK Raina",
+      "runs": 5536
+    },
+    {
+      "name": "MS Dhoni",
+      "runs": 5439
+    },
+    {
+      "name": "AM Rahane",
+      "runs": 5194
+    },
+    {
+      "name": "AB de Villiers",
+      "runs": 5181
+    },
+    {
+      "name": "SV Samson",
+      "runs": 5008
+    },
+    {
+      "name": "CH Gayle",
+      "runs": 4997
+    },
+    {
+      "name": "RV Uthappa",
+      "runs": 4954
+    },
+    {
+      "name": "KD Karthik",
+      "runs": 4843
+    },
+    {
+      "name": "F du Plessis",
+      "runs": 4773
+    },
+    {
+      "name": "SA Yadav",
+      "runs": 4473
+    },
+    {
+      "name": "JC Buttler",
+      "runs": 4430
+    },
+    {
+      "name": "AT Rayudu",
+      "runs": 4348
+    },
+    {
+      "name": "Shubman Gill",
+      "runs": 4239
+    },
+    {
+      "name": "G Gambhir",
+      "runs": 4217
+    },
+    {
+      "name": "SS Iyer",
+      "runs": 4044
+    }
+  ],
+  "bySeason": {
+    "2007": [
+      {
+        "name": "SE Marsh",
+        "runs": 616
+      },
+      {
+        "name": "G Gambhir",
+        "runs": 534
+      },
+      {
+        "name": "ST Jayasuriya",
+        "runs": 514
+      },
+      {
+        "name": "SR Watson",
+        "runs": 472
+      },
+      {
+        "name": "GC Smith",
+        "runs": 441
+      },
+      {
+        "name": "AC Gilchrist",
+        "runs": 436
+      },
+      {
+        "name": "YK Pathan",
+        "runs": 435
+      },
+      {
+        "name": "SK Raina",
+        "runs": 421
+      },
+      {
+        "name": "MS Dhoni",
+        "runs": 414
+      },
+      {
+        "name": "V Sehwag",
+        "runs": 406
+      },
+      {
+        "name": "RG Sharma",
+        "runs": 404
+      },
+      {
+        "name": "R Dravid",
+        "runs": 371
+      },
+      {
+        "name": "SC Ganguly",
+        "runs": 349
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 340
+      },
+      {
+        "name": "RV Uthappa",
+        "runs": 320
+      }
+    ],
+    "2009": [
+      {
+        "name": "SR Tendulkar",
+        "runs": 982
+      },
+      {
+        "name": "SK Raina",
+        "runs": 962
+      },
+      {
+        "name": "JH Kallis",
+        "runs": 933
+      },
+      {
+        "name": "ML Hayden",
+        "runs": 918
+      },
+      {
+        "name": "AC Gilchrist",
+        "runs": 784
+      },
+      {
+        "name": "RG Sharma",
+        "runs": 766
+      },
+      {
+        "name": "KC Sangakkara",
+        "runs": 689
+      },
+      {
+        "name": "SC Ganguly",
+        "runs": 682
+      },
+      {
+        "name": "A Symonds",
+        "runs": 678
+      },
+      {
+        "name": "DPMD Jayawardene",
+        "runs": 664
+      },
+      {
+        "name": "HH Gibbs",
+        "runs": 638
+      },
+      {
+        "name": "MS Dhoni",
+        "runs": 619
+      },
+      {
+        "name": "Yuvraj Singh",
+        "runs": 599
+      },
+      {
+        "name": "YK Pathan",
+        "runs": 594
+      },
+      {
+        "name": "AB de Villiers",
+        "runs": 576
+      }
+    ],
+    "2011": [
+      {
+        "name": "CH Gayle",
+        "runs": 608
+      },
+      {
+        "name": "V Kohli",
+        "runs": 557
+      },
+      {
+        "name": "SR Tendulkar",
+        "runs": 553
+      },
+      {
+        "name": "SE Marsh",
+        "runs": 504
+      },
+      {
+        "name": "MEK Hussey",
+        "runs": 492
+      },
+      {
+        "name": "PC Valthaty",
+        "runs": 463
+      },
+      {
+        "name": "SK Raina",
+        "runs": 438
+      },
+      {
+        "name": "M Vijay",
+        "runs": 434
+      },
+      {
+        "name": "V Sehwag",
+        "runs": 424
+      },
+      {
+        "name": "JH Kallis",
+        "runs": 424
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 400
+      },
+      {
+        "name": "S Badrinath",
+        "runs": 396
+      },
+      {
+        "name": "AT Rayudu",
+        "runs": 395
+      },
+      {
+        "name": "MS Dhoni",
+        "runs": 392
+      },
+      {
+        "name": "AC Gilchrist",
+        "runs": 383
+      }
+    ],
+    "2012": [
+      {
+        "name": "CH Gayle",
+        "runs": 733
+      },
+      {
+        "name": "G Gambhir",
+        "runs": 590
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 569
+      },
+      {
+        "name": "AM Rahane",
+        "runs": 560
+      },
+      {
+        "name": "V Sehwag",
+        "runs": 495
+      },
+      {
+        "name": "CL White",
+        "runs": 479
+      },
+      {
+        "name": "R Dravid",
+        "runs": 462
+      },
+      {
+        "name": "SK Raina",
+        "runs": 441
+      },
+      {
+        "name": "RG Sharma",
+        "runs": 433
+      },
+      {
+        "name": "Mandeep Singh",
+        "runs": 432
+      },
+      {
+        "name": "JH Kallis",
+        "runs": 409
+      },
+      {
+        "name": "RV Uthappa",
+        "runs": 405
+      },
+      {
+        "name": "F du Plessis",
+        "runs": 398
+      },
+      {
+        "name": "DJ Hussey",
+        "runs": 396
+      },
+      {
+        "name": "DJ Bravo",
+        "runs": 371
+      }
+    ],
+    "2013": [
+      {
+        "name": "MEK Hussey",
+        "runs": 733
+      },
+      {
+        "name": "CH Gayle",
+        "runs": 720
+      },
+      {
+        "name": "V Kohli",
+        "runs": 639
+      },
+      {
+        "name": "SK Raina",
+        "runs": 548
+      },
+      {
+        "name": "SR Watson",
+        "runs": 543
+      },
+      {
+        "name": "RG Sharma",
+        "runs": 538
+      },
+      {
+        "name": "KD Karthik",
+        "runs": 510
+      },
+      {
+        "name": "AM Rahane",
+        "runs": 488
+      },
+      {
+        "name": "R Dravid",
+        "runs": 471
+      },
+      {
+        "name": "MS Dhoni",
+        "runs": 461
+      },
+      {
+        "name": "AJ Finch",
+        "runs": 456
+      },
+      {
+        "name": "RV Uthappa",
+        "runs": 434
+      },
+      {
+        "name": "KA Pollard",
+        "runs": 420
+      },
+      {
+        "name": "DR Smith",
+        "runs": 418
+      },
+      {
+        "name": "DA Miller",
+        "runs": 418
+      }
+    ],
+    "2014": [
+      {
+        "name": "RV Uthappa",
+        "runs": 660
+      },
+      {
+        "name": "DR Smith",
+        "runs": 566
+      },
+      {
+        "name": "GJ Maxwell",
+        "runs": 552
+      },
+      {
+        "name": "DA Warner",
+        "runs": 528
+      },
+      {
+        "name": "SK Raina",
+        "runs": 523
+      },
+      {
+        "name": "V Sehwag",
+        "runs": 455
+      },
+      {
+        "name": "DA Miller",
+        "runs": 446
+      },
+      {
+        "name": "JP Duminy",
+        "runs": 410
+      },
+      {
+        "name": "MK Pandey",
+        "runs": 409
+      },
+      {
+        "name": "BB McCullum",
+        "runs": 405
+      },
+      {
+        "name": "AB de Villiers",
+        "runs": 395
+      },
+      {
+        "name": "LMP Simmons",
+        "runs": 394
+      },
+      {
+        "name": "RG Sharma",
+        "runs": 390
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 377
+      },
+      {
+        "name": "Yuvraj Singh",
+        "runs": 376
+      }
+    ],
+    "2015": [
+      {
+        "name": "DA Warner",
+        "runs": 562
+      },
+      {
+        "name": "AM Rahane",
+        "runs": 540
+      },
+      {
+        "name": "LMP Simmons",
+        "runs": 540
+      },
+      {
+        "name": "AB de Villiers",
+        "runs": 513
+      },
+      {
+        "name": "V Kohli",
+        "runs": 505
+      },
+      {
+        "name": "CH Gayle",
+        "runs": 491
+      },
+      {
+        "name": "RG Sharma",
+        "runs": 482
+      },
+      {
+        "name": "SS Iyer",
+        "runs": 439
+      },
+      {
+        "name": "BB McCullum",
+        "runs": 436
+      },
+      {
+        "name": "KA Pollard",
+        "runs": 419
+      },
+      {
+        "name": "JP Duminy",
+        "runs": 414
+      },
+      {
+        "name": "DR Smith",
+        "runs": 399
+      },
+      {
+        "name": "F du Plessis",
+        "runs": 380
+      },
+      {
+        "name": "SK Raina",
+        "runs": 374
+      },
+      {
+        "name": "MS Dhoni",
+        "runs": 372
+      }
+    ],
+    "2016": [
+      {
+        "name": "V Kohli",
+        "runs": 973
+      },
+      {
+        "name": "DA Warner",
+        "runs": 848
+      },
+      {
+        "name": "AB de Villiers",
+        "runs": 687
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 501
+      },
+      {
+        "name": "G Gambhir",
+        "runs": 501
+      },
+      {
+        "name": "RG Sharma",
+        "runs": 489
+      },
+      {
+        "name": "AM Rahane",
+        "runs": 480
+      },
+      {
+        "name": "M Vijay",
+        "runs": 453
+      },
+      {
+        "name": "Q de Kock",
+        "runs": 445
+      },
+      {
+        "name": "SK Raina",
+        "runs": 399
+      },
+      {
+        "name": "KL Rahul",
+        "runs": 397
+      },
+      {
+        "name": "RV Uthappa",
+        "runs": 394
+      },
+      {
+        "name": "AJ Finch",
+        "runs": 393
+      },
+      {
+        "name": "YK Pathan",
+        "runs": 361
+      },
+      {
+        "name": "KK Nair",
+        "runs": 357
+      }
+    ],
+    "2017": [
+      {
+        "name": "DA Warner",
+        "runs": 641
+      },
+      {
+        "name": "G Gambhir",
+        "runs": 498
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 479
+      },
+      {
+        "name": "SPD Smith",
+        "runs": 472
+      },
+      {
+        "name": "SK Raina",
+        "runs": 442
+      },
+      {
+        "name": "HM Amla",
+        "runs": 420
+      },
+      {
+        "name": "MK Pandey",
+        "runs": 396
+      },
+      {
+        "name": "PA Patel",
+        "runs": 395
+      },
+      {
+        "name": "KA Pollard",
+        "runs": 395
+      },
+      {
+        "name": "RA Tripathi",
+        "runs": 391
+      },
+      {
+        "name": "RV Uthappa",
+        "runs": 388
+      },
+      {
+        "name": "SV Samson",
+        "runs": 386
+      },
+      {
+        "name": "AM Rahane",
+        "runs": 382
+      },
+      {
+        "name": "RR Pant",
+        "runs": 366
+      },
+      {
+        "name": "KD Karthik",
+        "runs": 361
+      }
+    ],
+    "2018": [
+      {
+        "name": "KS Williamson",
+        "runs": 735
+      },
+      {
+        "name": "RR Pant",
+        "runs": 684
+      },
+      {
+        "name": "KL Rahul",
+        "runs": 659
+      },
+      {
+        "name": "AT Rayudu",
+        "runs": 602
+      },
+      {
+        "name": "SR Watson",
+        "runs": 555
+      },
+      {
+        "name": "JC Buttler",
+        "runs": 548
+      },
+      {
+        "name": "V Kohli",
+        "runs": 530
+      },
+      {
+        "name": "SA Yadav",
+        "runs": 512
+      },
+      {
+        "name": "KD Karthik",
+        "runs": 498
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 497
+      },
+      {
+        "name": "CA Lynn",
+        "runs": 491
+      },
+      {
+        "name": "AB de Villiers",
+        "runs": 480
+      },
+      {
+        "name": "MS Dhoni",
+        "runs": 455
+      },
+      {
+        "name": "SK Raina",
+        "runs": 445
+      },
+      {
+        "name": "SV Samson",
+        "runs": 441
+      }
+    ],
+    "2019": [
+      {
+        "name": "DA Warner",
+        "runs": 692
+      },
+      {
+        "name": "KL Rahul",
+        "runs": 593
+      },
+      {
+        "name": "Q de Kock",
+        "runs": 529
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 521
+      },
+      {
+        "name": "AD Russell",
+        "runs": 514
+      },
+      {
+        "name": "RR Pant",
+        "runs": 494
+      },
+      {
+        "name": "CH Gayle",
+        "runs": 490
+      },
+      {
+        "name": "SS Iyer",
+        "runs": 467
+      },
+      {
+        "name": "V Kohli",
+        "runs": 464
+      },
+      {
+        "name": "JM Bairstow",
+        "runs": 445
+      },
+      {
+        "name": "AB de Villiers",
+        "runs": 442
+      },
+      {
+        "name": "SA Yadav",
+        "runs": 424
+      },
+      {
+        "name": "MS Dhoni",
+        "runs": 416
+      },
+      {
+        "name": "HH Pandya",
+        "runs": 409
+      },
+      {
+        "name": "CA Lynn",
+        "runs": 405
+      }
+    ],
+    "2020": [
+      {
+        "name": "KL Rahul",
+        "runs": 676
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 618
+      },
+      {
+        "name": "DA Warner",
+        "runs": 548
+      },
+      {
+        "name": "SS Iyer",
+        "runs": 519
+      },
+      {
+        "name": "Ishan Kishan",
+        "runs": 516
+      },
+      {
+        "name": "Q de Kock",
+        "runs": 506
+      },
+      {
+        "name": "SA Yadav",
+        "runs": 480
+      },
+      {
+        "name": "D Padikkal",
+        "runs": 473
+      },
+      {
+        "name": "V Kohli",
+        "runs": 471
+      },
+      {
+        "name": "AB de Villiers",
+        "runs": 460
+      },
+      {
+        "name": "F du Plessis",
+        "runs": 449
+      },
+      {
+        "name": "Shubman Gill",
+        "runs": 440
+      },
+      {
+        "name": "MA Agarwal",
+        "runs": 432
+      },
+      {
+        "name": "MK Pandey",
+        "runs": 425
+      },
+      {
+        "name": "EJG Morgan",
+        "runs": 419
+      }
+    ],
+    "2021": [
+      {
+        "name": "RD Gaikwad",
+        "runs": 635
+      },
+      {
+        "name": "F du Plessis",
+        "runs": 633
+      },
+      {
+        "name": "KL Rahul",
+        "runs": 626
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 587
+      },
+      {
+        "name": "GJ Maxwell",
+        "runs": 513
+      },
+      {
+        "name": "SV Samson",
+        "runs": 484
+      },
+      {
+        "name": "PP Shaw",
+        "runs": 479
+      },
+      {
+        "name": "Shubman Gill",
+        "runs": 478
+      },
+      {
+        "name": "MA Agarwal",
+        "runs": 441
+      },
+      {
+        "name": "RR Pant",
+        "runs": 424
+      },
+      {
+        "name": "D Padikkal",
+        "runs": 411
+      },
+      {
+        "name": "V Kohli",
+        "runs": 405
+      },
+      {
+        "name": "RA Tripathi",
+        "runs": 397
+      },
+      {
+        "name": "N Rana",
+        "runs": 383
+      },
+      {
+        "name": "RG Sharma",
+        "runs": 381
+      }
+    ],
+    "2022": [
+      {
+        "name": "JC Buttler",
+        "runs": 863
+      },
+      {
+        "name": "KL Rahul",
+        "runs": 616
+      },
+      {
+        "name": "Q de Kock",
+        "runs": 508
+      },
+      {
+        "name": "HH Pandya",
+        "runs": 487
+      },
+      {
+        "name": "Shubman Gill",
+        "runs": 483
+      },
+      {
+        "name": "DA Miller",
+        "runs": 481
+      },
+      {
+        "name": "F du Plessis",
+        "runs": 468
+      },
+      {
+        "name": "S Dhawan",
+        "runs": 460
+      },
+      {
+        "name": "SV Samson",
+        "runs": 458
+      },
+      {
+        "name": "DJ Hooda",
+        "runs": 451
+      },
+      {
+        "name": "LS Livingstone",
+        "runs": 437
+      },
+      {
+        "name": "DA Warner",
+        "runs": 432
+      },
+      {
+        "name": "Abhishek Sharma",
+        "runs": 426
+      },
+      {
+        "name": "Ishan Kishan",
+        "runs": 418
+      },
+      {
+        "name": "RA Tripathi",
+        "runs": 413
+      }
+    ],
+    "2023": [
+      {
+        "name": "Shubman Gill",
+        "runs": 890
+      },
+      {
+        "name": "F du Plessis",
+        "runs": 730
+      },
+      {
+        "name": "DP Conway",
+        "runs": 672
+      },
+      {
+        "name": "V Kohli",
+        "runs": 639
+      },
+      {
+        "name": "YBK Jaiswal",
+        "runs": 625
+      },
+      {
+        "name": "SA Yadav",
+        "runs": 605
+      },
+      {
+        "name": "RD Gaikwad",
+        "runs": 590
+      },
+      {
+        "name": "DA Warner",
+        "runs": 516
+      },
+      {
+        "name": "RK Singh",
+        "runs": 474
+      },
+      {
+        "name": "Ishan Kishan",
+        "runs": 454
+      },
+      {
+        "name": "C Green",
+        "runs": 452
+      },
+      {
+        "name": "H Klaasen",
+        "runs": 448
+      },
+      {
+        "name": "S Dube",
+        "runs": 418
+      },
+      {
+        "name": "N Rana",
+        "runs": 413
+      },
+      {
+        "name": "MP Stoinis",
+        "runs": 408
+      }
+    ],
+    "2024": [
+      {
+        "name": "V Kohli",
+        "runs": 741
+      },
+      {
+        "name": "RD Gaikwad",
+        "runs": 583
+      },
+      {
+        "name": "R Parag",
+        "runs": 573
+      },
+      {
+        "name": "TM Head",
+        "runs": 567
+      },
+      {
+        "name": "SV Samson",
+        "runs": 531
+      },
+      {
+        "name": "B Sai Sudharsan",
+        "runs": 527
+      },
+      {
+        "name": "KL Rahul",
+        "runs": 520
+      },
+      {
+        "name": "N Pooran",
+        "runs": 499
+      },
+      {
+        "name": "SP Narine",
+        "runs": 488
+      },
+      {
+        "name": "Abhishek Sharma",
+        "runs": 484
+      },
+      {
+        "name": "H Klaasen",
+        "runs": 479
+      },
+      {
+        "name": "RR Pant",
+        "runs": 446
+      },
+      {
+        "name": "F du Plessis",
+        "runs": 438
+      },
+      {
+        "name": "PD Salt",
+        "runs": 435
+      },
+      {
+        "name": "YBK Jaiswal",
+        "runs": 435
+      }
+    ],
+    "2025": [
+      {
+        "name": "B Sai Sudharsan",
+        "runs": 759
+      },
+      {
+        "name": "SA Yadav",
+        "runs": 717
+      },
+      {
+        "name": "V Kohli",
+        "runs": 657
+      },
+      {
+        "name": "Shubman Gill",
+        "runs": 650
+      },
+      {
+        "name": "MR Marsh",
+        "runs": 627
+      },
+      {
+        "name": "SS Iyer",
+        "runs": 604
+      },
+      {
+        "name": "P Simran Singh",
+        "runs": 599
+      },
+      {
+        "name": "YBK Jaiswal",
+        "runs": 559
+      },
+      {
+        "name": "KL Rahul",
+        "runs": 546
+      },
+      {
+        "name": "Priyansh Arya",
+        "runs": 545
+      },
+      {
+        "name": "JC Buttler",
+        "runs": 538
+      },
+      {
+        "name": "N Pooran",
+        "runs": 524
+      },
+      {
+        "name": "H Klaasen",
+        "runs": 487
+      },
+      {
+        "name": "AK Markram",
+        "runs": 445
+      },
+      {
+        "name": "Abhishek Sharma",
+        "runs": 439
+      }
+    ],
+    "2026": [
+      {
+        "name": "KL Rahul",
+        "runs": 433
+      },
+      {
+        "name": "Abhishek Sharma",
+        "runs": 425
+      },
+      {
+        "name": "H Klaasen",
+        "runs": 414
+      },
+      {
+        "name": "V Suryavanshi",
+        "runs": 404
+      },
+      {
+        "name": "V Kohli",
+        "runs": 379
+      },
+      {
+        "name": "Shubman Gill",
+        "runs": 373
+      },
+      {
+        "name": "P Simran Singh",
+        "runs": 346
+      },
+      {
+        "name": "B Sai Sudharsan",
+        "runs": 328
+      },
+      {
+        "name": "Ishan Kishan",
+        "runs": 312
+      },
+      {
+        "name": "YBK Jaiswal",
+        "runs": 312
+      },
+      {
+        "name": "JC Buttler",
+        "runs": 309
+      },
+      {
+        "name": "SS Iyer",
+        "runs": 309
+      },
+      {
+        "name": "SV Samson",
+        "runs": 304
+      },
+      {
+        "name": "Dhruv Jurel",
+        "runs": 290
+      },
+      {
+        "name": "Priyansh Arya",
+        "runs": 283
+      }
+    ]
+  },
+  "currentSeasonYear": 2026
+}

@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar'
 
 export default function DashboardLayout() {
   return (
-    <div className="flex min-h-screen bg-[#0d0e14]">
+    <div className="flex min-h-screen bg-[var(--surface-page)]">
       <Sidebar />
       <div className="flex-1 min-w-0">
         <Outlet />

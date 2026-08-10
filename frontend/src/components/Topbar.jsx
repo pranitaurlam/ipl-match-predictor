@@ -1,17 +1,17 @@
-import { Sun, User } from 'lucide-react'
+import { User } from 'lucide-react'
+import ThemeToggle from './ThemeToggle'
 
-export default function Topbar({ title, subtitle }) {
+export default function Topbar({ title, subtitle, action }) {
   return (
-    <header className="flex items-center justify-between px-8 py-6">
+    <header className="flex items-center justify-between px-8 py-6 border-b border-[var(--border-hairline)]">
       <div>
-        <h1 className="text-lg font-semibold text-white tracking-wide">{title}</h1>
-        {subtitle && <p className="text-sm text-gray-500 mt-1">{subtitle}</p>}
+        <h1 className="text-lg font-semibold text-[var(--text-primary)] tracking-wide">{title}</h1>
+        {subtitle && <p className="text-sm text-[var(--text-muted)] mt-1">{subtitle}</p>}
       </div>
       <div className="flex items-center gap-3">
-        <button className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-white">
-          <Sun size={16} />
-        </button>
-        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white">
+        {action}
+        <ThemeToggle />
+        <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#3987e5] to-[#9085e9] flex items-center justify-center text-white">
           <User size={16} />
         </div>
       </div>
