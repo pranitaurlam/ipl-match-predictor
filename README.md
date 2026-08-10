@@ -1,7 +1,6 @@
 # IPL Match Winner Predictor
 
 Predicts IPL match winning probability using machine learning, trained on historical match data (2007-2026).
-
 ## Project Structure
 
 ```
