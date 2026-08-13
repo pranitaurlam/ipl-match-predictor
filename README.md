@@ -1,6 +1,8 @@
 # IPL Match Winner Predictor
 
 Predicts IPL match winning probability using machine learning, trained on historical match data (2007-2026).
+
+**Live dashboard:** https://frontend-gamma-three-eabsug3sbm.vercel.app
 ## Project Structure
 
 ```
