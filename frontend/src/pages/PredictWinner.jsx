@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import Topbar from '../components/Topbar'
 import Card from '../components/Card'
 import { useChartTheme, useThemedTeams } from '../utils/ThemeContext'
-import { matches, headToHead, teamStats, predictWinProbability } from '../utils/stats'
+import { matches, headToHead, teamStats, predictWinProbability, modelInfo } from '../utils/stats'
 
 const venues = [...new Set(matches.map((m) => m.venue))].sort()
 
@@ -52,7 +52,7 @@ export default function PredictWinner() {
 
   return (
     <div>
-      <Topbar title="PREDICT MATCH WINNER" subtitle="Data-driven estimate from historical win rate, head-to-head, form, and toss" />
+      <Topbar title="PREDICT MATCH WINNER" subtitle="Logistic regression trained on historical win rate, head-to-head, venue, form, and toss" />
       <div className="px-8 py-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <Card>
           <div className="grid grid-cols-2 gap-4">
@@ -144,7 +144,7 @@ export default function PredictWinner() {
           <div className="mt-6 pt-4 border-t border-[var(--border-hairline)]">
             <h4 className="text-sm font-semibold text-[var(--text-primary)] mb-1">Match Situation</h4>
             <p className="text-xs text-[var(--text-muted)] mb-3">
-              {t1.code} is {prob >= 50 ? 'favored to win' : 'the underdog'} based on all-time win rate, head-to-head record, and last-5-match form.
+              {t1.code} is {prob >= 50 ? 'favored to win' : 'the underdog'} based on all-time win rate, head-to-head record, venue record, last-5-match form, and who bats first.
             </p>
             <div className="h-2 rounded-full bg-[var(--surface-hover)] overflow-hidden flex">
               <div className="h-full" style={{ width: `${prob}%`, background: t1.color }} />
@@ -157,7 +157,9 @@ export default function PredictWinner() {
           </div>
 
           <p className="mt-4 text-[11px] text-[var(--text-muted)] leading-relaxed">
-            Heuristic estimate from historical stats (win %, head-to-head, recent form, toss) — not yet a trained ML model.
+            Logistic regression trained on {modelInfo.trainedOn}. Tested season by season on matches it hadn't
+            seen, it picked the winner {Math.round(modelInfo.accuracy * 100)}% of the time — pre-match IPL results
+            are close to a coin flip, so treat this as a lean, not a forecast.
           </p>
         </Card>
       </div>

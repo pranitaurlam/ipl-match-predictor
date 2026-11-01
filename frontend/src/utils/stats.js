@@ -1,6 +1,7 @@
 import matches from '../data/matches.json'
 import teams from '../data/teams.json'
 import topScorers from '../data/top_scorers.json'
+import model from '../data/model.json'
 
 export { matches, teams, topScorers }
 
@@ -187,32 +188,42 @@ export function keyInsights() {
   ]
 }
 
-export function predictWinProbability({ team1, team2, tossWinner, tossDecision, venue }) {
-  const s1 = teamStats(team1)
-  const s2 = teamStats(team2)
-  const h2h = headToHead(team1, team2)
-  const h2hRate = h2h.total > 0 ? h2h.winsA / h2h.total : 0.5
+// Win rate of `team` over a list of decisive matches, 0.5 when there are none —
+// the same defaults notebooks/06_feature_engineering.ipynb uses for the model.
+function winRate(team, rows) {
+  return rows.length ? rows.filter((m) => m.winner === team).length / rows.length : 0.5
+}
 
-  const form1 = recentForm(team1, 5)
-  const form2 = recentForm(team2, 5)
-  const formRate1 = form1.length ? form1.filter((r) => r === 'W').length / form1.length : 0.5
-  const formRate2 = form2.length ? form2.filter((r) => r === 'W').length / form2.length : 0.5
+// The 5 features logistic regression was trained on (07_model_training.ipynb),
+// computed from every decisive match so far.
+function modelFeatures({ team1, team2, tossWinner, tossDecision, venue }) {
+  const playedBy = (team) => decisive.filter((m) => m.team1 === team || m.team2 === team)
+  const p1 = playedBy(team1)
+  const p2 = playedBy(team2)
+  const meetings = p1.filter((m) => m.team1 === team2 || m.team2 === team2)
+  const lastFive = (team, rows) =>
+    winRate(team, [...rows].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5))
 
-  const tossBonus = tossWinner === team1 ? 0.03 : tossWinner === team2 ? -0.03 : 0
+  return {
+    team1_bats_first: (tossWinner === team1) === (tossDecision === 'bat') ? 1 : 0,
+    team_win_pct_diff: winRate(team1, p1) - winRate(team2, p2),
+    h2h_win_rate_diff: winRate(team1, meetings) - winRate(team2, meetings),
+    venue_win_pct_diff:
+      winRate(team1, p1.filter((m) => m.venue === venue)) -
+      winRate(team2, p2.filter((m) => m.venue === venue)),
+    recent_form_5_diff: lastFive(team1, p1) - lastFive(team2, p2),
+  }
+}
 
-  const score1 =
-    Number(s1.winPct) / 100 * 0.35 +
-    h2hRate * 0.3 +
-    formRate1 * 0.25 +
-    (0.5 + tossBonus) * 0.1
-  const score2 =
-    Number(s2.winPct) / 100 * 0.35 +
-    (1 - h2hRate) * 0.3 +
-    formRate2 * 0.25 +
-    (0.5 - tossBonus) * 0.1
+export const modelInfo = { trainedOn: model.trainedOn, accuracy: model.walkForwardAccuracy }
 
-  const total = score1 + score2 || 1
-  let prob = Math.round((score1 / total) * 100)
-  prob = Math.min(88, Math.max(12, prob))
-  return prob
+// Team1's win probability (0-100) from the trained logistic regression:
+// standardize each feature, take the weighted sum, apply the sigmoid.
+export function predictWinProbability(match) {
+  const features = modelFeatures(match)
+  const z = model.features.reduce(
+    (sum, name, i) => sum + model.coef[i] * ((features[name] - model.mean[i]) / model.scale[i]),
+    model.intercept
+  )
+  return Math.round(100 / (1 + Math.exp(-z)))
 }

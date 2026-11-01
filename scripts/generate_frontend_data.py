@@ -5,15 +5,19 @@ Outputs (frontend/src/data/):
   matches.json     - one row per match, minimal columns
   teams.json        - team identity + validated categorical color, ranked by matches played
   top_scorers.json  - all-time top 20 + top 15 run scorers for every season
+  model.json        - trained logistic regression (scaler + coefficients) so the
+                      Predict Winner page can score matches in the browser
 """
 import json
 from pathlib import Path
 
+import joblib
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
 PROCESSED = ROOT / "data" / "processed"
 RAW = ROOT / "data" / "raw"
+MODELS = ROOT / "models"
 OUT = ROOT / "frontend" / "src" / "data"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -145,6 +149,27 @@ def main():
         print(f"top_scorers.json: {len(all_time)} all-time, {len(by_season)} seasons")
     else:
         print(f"{deliveries_path} not found — skipping top_scorers.json")
+
+    # --- model.json: logistic regression from notebooks/07_model_training.ipynb.
+    # Exported as plain numbers (standardize, dot product, sigmoid) because the
+    # dashboard is a static site and can't load a joblib file.
+    model_path = MODELS / "logistic_regression.joblib"
+    if model_path.exists():
+        pipeline = joblib.load(model_path)
+        scaler, log_reg = pipeline.named_steps["standardscaler"], pipeline.named_steps["logisticregression"]
+        metadata = json.loads((MODELS / "model_metadata.json").read_text())
+        (OUT / "model.json").write_text(json.dumps({
+            "features": metadata["features"],
+            "mean": scaler.mean_.tolist(),
+            "scale": scaler.scale_.tolist(),
+            "coef": log_reg.coef_[0].tolist(),
+            "intercept": float(log_reg.intercept_[0]),
+            "trainedOn": metadata["trained_on"],
+            "walkForwardAccuracy": metadata["walk_forward_mean_accuracy"]["Logistic Regression"],
+        }, indent=2))
+        print("model.json: logistic regression exported")
+    else:
+        print(f"{model_path} not found — run notebooks/07_model_training.ipynb first")
 
     print(f"teams.json: {len(teams)} teams")
     print(f"matches.json: {len(matches_out)} matches")
